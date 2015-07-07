@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642E3CF71A51AA2A00134D89 /* RendimentoDettaglio.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E3CF61A51AA2A00134D89 /* RendimentoDettaglio.m */; };
+		642E3CFA1A51AA5500134D89 /* Contributo.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E3CF91A51AA5500134D89 /* Contributo.m */; };
+		645127ED1A4B2A610053DE5E /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 645127EC1A4B2A610053DE5E /* ConnectionHandler.m */; };
+		645127F81A4B52CE0053DE5E /* SpazioAderenteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 645127F71A4B52CE0053DE5E /* SpazioAderenteModel.m */; };
+		645E85D91A080C0000EC314A /* DefaultWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E85D71A080C0000EC314A /* DefaultWebViewViewController.m */; };
+		645E85DA1A080C0000EC314A /* DefaultWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E85D81A080C0000EC314A /* DefaultWebViewViewController.xib */; };
+		645E85DC1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E85DB1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib */; };
+		645E85DE1A08185800EC314A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 645E85DD1A08185800EC314A /* SVProgressHUD.bundle */; };
+		645E85E11A08186100EC314A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E85E01A08186100EC314A /* SVProgressHUD.m */; };
+		646D8CBB1AEEC0C100CF77F1 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D8CBA1AEEC0C100CF77F1 /* NSString+MD5.m */; };
+		646D8CBC1AEEC0C100CF77F1 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D8CBA1AEEC0C100CF77F1 /* NSString+MD5.m */; };
+		647370F019F2AFFA00FA815C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370EF19F2AFFA00FA815C /* CoreLocation.framework */; };
+		647370F419F2B51700FA815C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F319F2B51700FA815C /* Parse.framework */; };
+		647370F519F2B51700FA815C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F319F2B51700FA815C /* Parse.framework */; };
+		647370F719F2B53800FA815C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F619F2B53800FA815C /* Bolts.framework */; };
+		647370F819F2B53800FA815C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F619F2B53800FA815C /* Bolts.framework */; };
+		647370FA19F96A5900FA815C /* IntroViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647370F919F96A5900FA815C /* IntroViewController~ipad.xib */; };
+		6491AC041A852C4D00664F48 /* OperazioniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491AC031A852C4D00664F48 /* OperazioniView.m */; };
+		6491AC071A852DAD00664F48 /* OperazioneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491AC061A852DAD00664F48 /* OperazioneTableViewCell.m */; };
+		6491AC091A852DE200664F48 /* OperazioneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6491AC081A852DE200664F48 /* OperazioneTableViewCell.xib */; };
+		649B0F0D19F01F1F007C823E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F0C19F01F1F007C823E /* Foundation.framework */; };
+		649B0F0F19F01F1F007C823E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F0E19F01F1F007C823E /* CoreGraphics.framework */; };
+		649B0F1119F01F1F007C823E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F1019F01F1F007C823E /* UIKit.framework */; };
+		649B0F1919F01F1F007C823E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F1819F01F1F007C823E /* main.m */; };
+		649B0F1D19F01F1F007C823E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F1C19F01F1F007C823E /* AppDelegate.m */; };
+		649B0F1F19F01F1F007C823E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F1E19F01F1F007C823E /* Images.xcassets */; };
+		649B0F2719F01F1F007C823E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F0C19F01F1F007C823E /* Foundation.framework */; };
+		649B0F2819F01F1F007C823E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F1019F01F1F007C823E /* UIKit.framework */; };
+		649B0F3219F01F1F007C823E /* PrevimodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F3119F01F1F007C823E /* PrevimodaTests.m */; };
+		649B0F4719F01F93007C823E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4519F01F93007C823E /* Reachability.m */; };
+		649B0F7319F01FC3007C823E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4A19F01FC3007C823E /* Utility.m */; };
+		649B0F7419F01FC3007C823E /* ChiSiamoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4E19F01FC3007C823E /* ChiSiamoViewController.m */; };
+		649B0F7519F01FC3007C823E /* ChiSiamoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F4F19F01FC3007C823E /* ChiSiamoViewController.xib */; };
+		649B0F7619F01FC3007C823E /* ChiSiamoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5019F01FC3007C823E /* ChiSiamoViewController~ipad.xib */; };
+		649B0F7719F01FC3007C823E /* ContattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F5319F01FC3007C823E /* ContattiViewController.m */; };
+		649B0F7819F01FC3007C823E /* ContattiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5419F01FC3007C823E /* ContattiViewController.xib */; };
+		649B0F7919F01FC3007C823E /* ContattiViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5519F01FC3007C823E /* ContattiViewController~ipad.xib */; };
+		649B0F7D19F01FC3007C823E /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F5C19F01FC3007C823E /* IntroViewController.m */; };
+		649B0F7E19F01FC3007C823E /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5D19F01FC3007C823E /* IntroViewController.xib */; };
+		649B0F7F19F01FC3007C823E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F6019F01FC3007C823E /* MenuViewController.m */; };
+		649B0F8019F01FC3007C823E /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F6119F01FC3007C823E /* MenuViewController.xib */; };
+		649B0F8119F01FC3007C823E /* MenuViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F6219F01FC3007C823E /* MenuViewController~ipad.xib */; };
+		649B0F8A19F01FC3007C823E /* SpazioAderenteLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F7019F01FC3007C823E /* SpazioAderenteLoginViewController.m */; };
+		649B0F8B19F01FC3007C823E /* SpazioAderenteLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F7119F01FC3007C823E /* SpazioAderenteLoginViewController.xib */; };
+		649B0F8E19F02171007C823E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F8D19F02171007C823E /* QuartzCore.framework */; };
+		649B0F9019F0217B007C823E /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F8F19F0217B007C823E /* libz.1.1.3.dylib */; };
+		649B0F9219F0218C007C823E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9119F0218C007C823E /* MobileCoreServices.framework */; };
+		649B0F9419F02193007C823E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9319F02193007C823E /* AudioToolbox.framework */; };
+		649B0F9619F021A4007C823E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9519F021A4007C823E /* Security.framework */; };
+		649B0F9819F021AD007C823E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9719F021AD007C823E /* SystemConfiguration.framework */; };
+		649B0FA019F02A74007C823E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9F19F02A74007C823E /* CFNetwork.framework */; };
+		64A06EFE1A47F9AD009D83DF /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A06EFD1A47F9AD009D83DF /* CustomViewController.m */; };
+		64A265301A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A2652F1A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib */; };
+		64A2A0521A90D5D300D79653 /* OperazioneTableViewCell-ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A2652F1A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib */; };
+		64B78AB41A856F1B0030E0A9 /* DettaglioContributoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB31A856F1B0030E0A9 /* DettaglioContributoView.m */; };
+		64B78AB71A856FE30030E0A9 /* DettaglioContributoLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB61A856FE30030E0A9 /* DettaglioContributoLabelsView.m */; };
+		64B78ABA1A867C060030E0A9 /* ModificaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB91A867C060030E0A9 /* ModificaView.m */; };
+		64B78AC01A896BF10030E0A9 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A06EFD1A47F9AD009D83DF /* CustomViewController.m */; };
+		64B78AC11A896BF10030E0A9 /* ValorePosizioneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59071A84B4FA00C4F6C8 /* ValorePosizioneView.m */; };
+		64B78AC21A896BF10030E0A9 /* OperazioniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491AC031A852C4D00664F48 /* OperazioniView.m */; };
+		64B78AC31A896BF10030E0A9 /* RendimentoDettaglio.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E3CF61A51AA2A00134D89 /* RendimentoDettaglio.m */; };
+		64B78AC41A896BF10030E0A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F1C19F01F1F007C823E /* AppDelegate.m */; };
+		64B78AC51A896BF10030E0A9 /* Contributo.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E3CF91A51AA5500134D89 /* Contributo.m */; };
+		64B78AC61A896BF10030E0A9 /* DettaglioContributoLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB61A856FE30030E0A9 /* DettaglioContributoLabelsView.m */; };
+		64B78AC71A896BF10030E0A9 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4A19F01FC3007C823E /* Utility.m */; };
+		64B78AC81A896BF10030E0A9 /* OperazioneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491AC061A852DAD00664F48 /* OperazioneTableViewCell.m */; };
+		64B78AC91A896BF10030E0A9 /* ContattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F5319F01FC3007C823E /* ContattiViewController.m */; };
+		64B78ACA1A896BF10030E0A9 /* SpazioAderenteCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF58F31A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m */; };
+		64B78ACB1A896BF10030E0A9 /* ModificaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB91A867C060030E0A9 /* ModificaView.m */; };
+		64B78ACC1A896BF10030E0A9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F5C19F01FC3007C823E /* IntroViewController.m */; };
+		64B78ACD1A896BF10030E0A9 /* ChiSiamoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4E19F01FC3007C823E /* ChiSiamoViewController.m */; };
+		64B78ACE1A896BF10030E0A9 /* HeaderHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59011A84ABC700C4F6C8 /* HeaderHomeView.m */; };
+		64B78ACF1A896BF10030E0A9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F4519F01F93007C823E /* Reachability.m */; };
+		64B78AD01A896BF10030E0A9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E85E01A08186100EC314A /* SVProgressHUD.m */; };
+		64B78AD11A896BF10030E0A9 /* SpazioAderenteHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF58FC1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m */; };
+		64B78AD21A896BF10030E0A9 /* DefaultWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E85D71A080C0000EC314A /* DefaultWebViewViewController.m */; };
+		64B78AD31A896BF10030E0A9 /* SpazioAderenteLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F7019F01FC3007C823E /* SpazioAderenteLoginViewController.m */; };
+		64B78AD41A896BF10030E0A9 /* DettaglioContributoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B78AB31A856F1B0030E0A9 /* DettaglioContributoView.m */; };
+		64B78AD51A896BF10030E0A9 /* SpazioAderenteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 645127F71A4B52CE0053DE5E /* SpazioAderenteModel.m */; };
+		64B78AD61A896BF10030E0A9 /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 645127EC1A4B2A610053DE5E /* ConnectionHandler.m */; };
+		64B78AD71A896BF10030E0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F1819F01F1F007C823E /* main.m */; };
+		64B78AD81A896BF10030E0A9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649B0F6019F01FC3007C823E /* MenuViewController.m */; };
+		64B78ADA1A896BF10030E0A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9719F021AD007C823E /* SystemConfiguration.framework */; };
+		64B78ADB1A896BF10030E0A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9519F021A4007C823E /* Security.framework */; };
+		64B78ADC1A896BF10030E0A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9319F02193007C823E /* AudioToolbox.framework */; };
+		64B78ADD1A896BF10030E0A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9F19F02A74007C823E /* CFNetwork.framework */; };
+		64B78ADE1A896BF10030E0A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F0E19F01F1F007C823E /* CoreGraphics.framework */; };
+		64B78ADF1A896BF10030E0A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370EF19F2AFFA00FA815C /* CoreLocation.framework */; };
+		64B78AE01A896BF10030E0A9 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F8F19F0217B007C823E /* libz.1.1.3.dylib */; };
+		64B78AE11A896BF10030E0A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F9119F0218C007C823E /* MobileCoreServices.framework */; };
+		64B78AE21A896BF10030E0A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F8D19F02171007C823E /* QuartzCore.framework */; };
+		64B78AE31A896BF10030E0A9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F619F2B53800FA815C /* Bolts.framework */; };
+		64B78AE41A896BF10030E0A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F1019F01F1F007C823E /* UIKit.framework */; };
+		64B78AE51A896BF10030E0A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647370F319F2B51700FA815C /* Parse.framework */; };
+		64B78AE61A896BF10030E0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B0F0C19F01F1F007C823E /* Foundation.framework */; };
+		64B78AE81A896BF10030E0A9 /* ContattiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5419F01FC3007C823E /* ContattiViewController.xib */; };
+		64B78AE91A896BF10030E0A9 /* ChiSiamoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5019F01FC3007C823E /* ChiSiamoViewController~ipad.xib */; };
+		64B78AEA1A896BF10030E0A9 /* DefaultWebViewViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E85DB1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib */; };
+		64B78AEB1A896BF10030E0A9 /* ContattiViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5519F01FC3007C823E /* ContattiViewController~ipad.xib */; };
+		64B78AED1A896BF10030E0A9 /* DefaultWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E85D81A080C0000EC314A /* DefaultWebViewViewController.xib */; };
+		64B78AEE1A896BF10030E0A9 /* ChiSiamoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F4F19F01FC3007C823E /* ChiSiamoViewController.xib */; };
+		64B78AEF1A896BF10030E0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F1E19F01F1F007C823E /* Images.xcassets */; };
+		64B78AF01A896BF10030E0A9 /* SpazioAderenteLoginViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FF58F71A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib */; };
+		64B78AF11A896BF10030E0A9 /* MenuViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F6219F01FC3007C823E /* MenuViewController~ipad.xib */; };
+		64B78AF21A896BF10030E0A9 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F6119F01FC3007C823E /* MenuViewController.xib */; };
+		64B78AF31A896BF10030E0A9 /* SpazioAderenteHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FF58FD1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib */; };
+		64B78AF41A896BF10030E0A9 /* SpazioAderenteLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F7119F01FC3007C823E /* SpazioAderenteLoginViewController.xib */; };
+		64B78AF51A896BF10030E0A9 /* OperazioneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6491AC081A852DE200664F48 /* OperazioneTableViewCell.xib */; };
+		64B78AF61A896BF10030E0A9 /* IntroViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647370F919F96A5900FA815C /* IntroViewController~ipad.xib */; };
+		64B78AF71A896BF10030E0A9 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649B0F5D19F01FC3007C823E /* IntroViewController.xib */; };
+		64B78AF81A896BF10030E0A9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 645E85DD1A08185800EC314A /* SVProgressHUD.bundle */; };
+		64B78B041A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B031A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib */; };
+		64B78B051A8D40650030E0A9 /* SpazioAderenteHomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B031A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib */; };
+		64B78B091A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B081A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib */; };
+		64B78B0A1A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B081A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib */; };
+		64B78B0D1A8F71530030E0A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B0B1A8F71530030E0A9 /* Localizable.strings */; };
+		64B78B0E1A8F71530030E0A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B78B0B1A8F71530030E0A9 /* Localizable.strings */; };
+		64FF58F41A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF58F31A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m */; };
+		64FF58F81A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FF58F71A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib */; };
+		64FF58FE1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF58FC1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m */; };
+		64FF58FF1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FF58FD1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib */; };
+		64FF59021A84ABC700C4F6C8 /* HeaderHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59011A84ABC700C4F6C8 /* HeaderHomeView.m */; };
+		64FF59081A84B4FA00C4F6C8 /* ValorePosizioneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59071A84B4FA00C4F6C8 /* ValorePosizioneView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649B0F2919F01F1F007C823E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649B0F0119F01F1F007C823E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649B0F0819F01F1F007C823E;
+			remoteInfo = Previmoda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		642E3CF51A51AA2A00134D89 /* RendimentoDettaglio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendimentoDettaglio.h; sourceTree = "<group>"; };
+		642E3CF61A51AA2A00134D89 /* RendimentoDettaglio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendimentoDettaglio.m; sourceTree = "<group>"; };
+		642E3CF81A51AA5500134D89 /* Contributo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributo.h; sourceTree = "<group>"; };
+		642E3CF91A51AA5500134D89 /* Contributo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributo.m; sourceTree = "<group>"; };
+		6447ABDE1A5587020055186C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		645127EB1A4B2A610053DE5E /* ConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		645127EC1A4B2A610053DE5E /* ConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ConnectionHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		645127F61A4B52CE0053DE5E /* SpazioAderenteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpazioAderenteModel.h; sourceTree = "<group>"; };
+		645127F71A4B52CE0053DE5E /* SpazioAderenteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpazioAderenteModel.m; sourceTree = "<group>"; };
+		645E85D61A080C0000EC314A /* DefaultWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultWebViewViewController.h; sourceTree = "<group>"; };
+		645E85D71A080C0000EC314A /* DefaultWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DefaultWebViewViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		645E85D81A080C0000EC314A /* DefaultWebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultWebViewViewController.xib; sourceTree = "<group>"; };
+		645E85DB1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DefaultWebViewViewController~ipad.xib"; sourceTree = "<group>"; };
+		645E85DD1A08185800EC314A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		645E85DF1A08186100EC314A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		645E85E01A08186100EC314A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SVProgressHUD.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		646D8CB91AEEC07400CF77F1 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		646D8CBA1AEEC0C100CF77F1 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		647370EF19F2AFFA00FA815C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		647370F319F2B51700FA815C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		647370F619F2B53800FA815C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		647370F919F96A5900FA815C /* IntroViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "IntroViewController~ipad.xib"; path = "Intro/IntroViewController~ipad.xib"; sourceTree = "<group>"; };
+		6491AC021A852C4D00664F48 /* OperazioniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperazioniView.h; path = ViewController/SpazioAderente/OperazioniView.h; sourceTree = "<group>"; };
+		6491AC031A852C4D00664F48 /* OperazioniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperazioniView.m; path = ViewController/SpazioAderente/OperazioniView.m; sourceTree = "<group>"; };
+		6491AC051A852DAD00664F48 /* OperazioneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperazioneTableViewCell.h; path = ViewController/SpazioAderente/OperazioneTableViewCell.h; sourceTree = "<group>"; };
+		6491AC061A852DAD00664F48 /* OperazioneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperazioneTableViewCell.m; path = ViewController/SpazioAderente/OperazioneTableViewCell.m; sourceTree = "<group>"; };
+		6491AC081A852DE200664F48 /* OperazioneTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OperazioneTableViewCell.xib; path = ViewController/SpazioAderente/OperazioneTableViewCell.xib; sourceTree = "<group>"; };
+		649B0F0919F01F1F007C823E /* Previmoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Previmoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649B0F0C19F01F1F007C823E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		649B0F0E19F01F1F007C823E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		649B0F1019F01F1F007C823E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		649B0F1419F01F1F007C823E /* Previmoda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Previmoda-Info.plist"; sourceTree = "<group>"; };
+		649B0F1819F01F1F007C823E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649B0F1A19F01F1F007C823E /* Previmoda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Previmoda-Prefix.pch"; sourceTree = "<group>"; };
+		649B0F1B19F01F1F007C823E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		649B0F1C19F01F1F007C823E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		649B0F1E19F01F1F007C823E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		649B0F2419F01F1F007C823E /* PrevimodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrevimodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649B0F2D19F01F1F007C823E /* PrevimodaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrevimodaTests-Info.plist"; sourceTree = "<group>"; };
+		649B0F3119F01F1F007C823E /* PrevimodaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrevimodaTests.m; sourceTree = "<group>"; };
+		649B0F4119F01F93007C823E /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Globals.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		649B0F4419F01F93007C823E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		649B0F4519F01F93007C823E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Reachability.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		649B0F4919F01FC3007C823E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Classes/Utility.h; sourceTree = "<group>"; };
+		649B0F4A19F01FC3007C823E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = Classes/Utility.m; sourceTree = "<group>"; };
+		649B0F4D19F01FC3007C823E /* ChiSiamoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChiSiamoViewController.h; path = ChiSiamo/ChiSiamoViewController.h; sourceTree = "<group>"; };
+		649B0F4E19F01FC3007C823E /* ChiSiamoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ChiSiamoViewController.m; path = ChiSiamo/ChiSiamoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		649B0F4F19F01FC3007C823E /* ChiSiamoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChiSiamoViewController.xib; path = ChiSiamo/ChiSiamoViewController.xib; sourceTree = "<group>"; };
+		649B0F5019F01FC3007C823E /* ChiSiamoViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "ChiSiamoViewController~ipad.xib"; path = "ChiSiamo/ChiSiamoViewController~ipad.xib"; sourceTree = "<group>"; };
+		649B0F5219F01FC3007C823E /* ContattiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContattiViewController.h; path = Contatti/ContattiViewController.h; sourceTree = "<group>"; };
+		649B0F5319F01FC3007C823E /* ContattiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContattiViewController.m; path = Contatti/ContattiViewController.m; sourceTree = "<group>"; };
+		649B0F5419F01FC3007C823E /* ContattiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContattiViewController.xib; path = Contatti/ContattiViewController.xib; sourceTree = "<group>"; };
+		649B0F5519F01FC3007C823E /* ContattiViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "ContattiViewController~ipad.xib"; path = "Contatti/ContattiViewController~ipad.xib"; sourceTree = "<group>"; };
+		649B0F5B19F01FC3007C823E /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = Intro/IntroViewController.h; sourceTree = "<group>"; };
+		649B0F5C19F01FC3007C823E /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = Intro/IntroViewController.m; sourceTree = "<group>"; };
+		649B0F5D19F01FC3007C823E /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IntroViewController.xib; path = Intro/IntroViewController.xib; sourceTree = "<group>"; };
+		649B0F5F19F01FC3007C823E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		649B0F6019F01FC3007C823E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		649B0F6119F01FC3007C823E /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Menu/MenuViewController.xib; sourceTree = "<group>"; };
+		649B0F6219F01FC3007C823E /* MenuViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MenuViewController~ipad.xib"; path = "Menu/MenuViewController~ipad.xib"; sourceTree = "<group>"; };
+		649B0F6F19F01FC3007C823E /* SpazioAderenteLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SpazioAderenteLoginViewController.h; path = SpazioAderente/SpazioAderenteLoginViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		649B0F7019F01FC3007C823E /* SpazioAderenteLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SpazioAderenteLoginViewController.m; path = SpazioAderente/SpazioAderenteLoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		649B0F7119F01FC3007C823E /* SpazioAderenteLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpazioAderenteLoginViewController.xib; path = SpazioAderente/SpazioAderenteLoginViewController.xib; sourceTree = "<group>"; };
+		649B0F8D19F02171007C823E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		649B0F8F19F0217B007C823E /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		649B0F9119F0218C007C823E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		649B0F9319F02193007C823E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		649B0F9519F021A4007C823E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		649B0F9719F021AD007C823E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		649B0F9F19F02A74007C823E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		649B0FA419F02C43007C823E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64A06EFC1A47F9AD009D83DF /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		64A06EFD1A47F9AD009D83DF /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		64A2652F1A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OperazioneTableViewCell-ipad.xib"; sourceTree = "<group>"; };
+		64B78AB21A856F1B0030E0A9 /* DettaglioContributoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DettaglioContributoView.h; path = ViewController/SpazioAderente/DettaglioContributoView.h; sourceTree = "<group>"; };
+		64B78AB31A856F1B0030E0A9 /* DettaglioContributoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DettaglioContributoView.m; path = ViewController/SpazioAderente/DettaglioContributoView.m; sourceTree = "<group>"; };
+		64B78AB51A856FE30030E0A9 /* DettaglioContributoLabelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DettaglioContributoLabelsView.h; path = ViewController/SpazioAderente/DettaglioContributoLabelsView.h; sourceTree = "<group>"; };
+		64B78AB61A856FE30030E0A9 /* DettaglioContributoLabelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DettaglioContributoLabelsView.m; path = ViewController/SpazioAderente/DettaglioContributoLabelsView.m; sourceTree = "<group>"; };
+		64B78AB81A867C060030E0A9 /* ModificaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModificaView.h; path = ViewController/SpazioAderente/ModificaView.h; sourceTree = "<group>"; };
+		64B78AB91A867C060030E0A9 /* ModificaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModificaView.m; path = ViewController/SpazioAderente/ModificaView.m; sourceTree = "<group>"; };
+		64B78AFD1A896BF10030E0A9 /* Previmoda copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Previmoda copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B78AFE1A896BF20030E0A9 /* Previmoda copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Previmoda copy-Info.plist"; path = "/Users/Daniele/Desktop/ElpoEdizioniNew/Previmoda/Previmoda copy-Info.plist"; sourceTree = "<absolute>"; };
+		64B78B031A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "SpazioAderenteHomeViewController~ipad.xib"; path = "SpazioAderente/SpazioAderenteHomeViewController~ipad.xib"; sourceTree = "<group>"; };
+		64B78B081A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrevimodaLaunchScreen.xib; sourceTree = "<group>"; };
+		64B78B0C1A8F71530030E0A9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64B78B0F1A8F71FE0030E0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64FF58F21A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpazioAderenteCustomViewController.h; path = SpazioAderente/SpazioAderenteCustomViewController.h; sourceTree = "<group>"; };
+		64FF58F31A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpazioAderenteCustomViewController.m; path = SpazioAderente/SpazioAderenteCustomViewController.m; sourceTree = "<group>"; };
+		64FF58F71A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "SpazioAderenteLoginViewController~ipad.xib"; path = "SpazioAderente/SpazioAderenteLoginViewController~ipad.xib"; sourceTree = "<group>"; };
+		64FF58FB1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpazioAderenteHomeViewController.h; path = SpazioAderente/SpazioAderenteHomeViewController.h; sourceTree = "<group>"; };
+		64FF58FC1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpazioAderenteHomeViewController.m; path = SpazioAderente/SpazioAderenteHomeViewController.m; sourceTree = "<group>"; };
+		64FF58FD1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpazioAderenteHomeViewController.xib; path = SpazioAderente/SpazioAderenteHomeViewController.xib; sourceTree = "<group>"; };
+		64FF59001A84ABC700C4F6C8 /* HeaderHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderHomeView.h; path = ViewController/SpazioAderente/HeaderHomeView.h; sourceTree = "<group>"; };
+		64FF59011A84ABC700C4F6C8 /* HeaderHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderHomeView.m; path = ViewController/SpazioAderente/HeaderHomeView.m; sourceTree = "<group>"; };
+		64FF59061A84B4FA00C4F6C8 /* ValorePosizioneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValorePosizioneView.h; path = ViewController/SpazioAderente/ValorePosizioneView.h; sourceTree = "<group>"; };
+		64FF59071A84B4FA00C4F6C8 /* ValorePosizioneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValorePosizioneView.m; path = ViewController/SpazioAderente/ValorePosizioneView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649B0F0619F01F1F007C823E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649B0F9819F021AD007C823E /* SystemConfiguration.framework in Frameworks */,
+				649B0F9619F021A4007C823E /* Security.framework in Frameworks */,
+				649B0F9419F02193007C823E /* AudioToolbox.framework in Frameworks */,
+				649B0FA019F02A74007C823E /* CFNetwork.framework in Frameworks */,
+				649B0F0F19F01F1F007C823E /* CoreGraphics.framework in Frameworks */,
+				647370F019F2AFFA00FA815C /* CoreLocation.framework in Frameworks */,
+				649B0F9019F0217B007C823E /* libz.1.1.3.dylib in Frameworks */,
+				649B0F9219F0218C007C823E /* MobileCoreServices.framework in Frameworks */,
+				649B0F8E19F02171007C823E /* QuartzCore.framework in Frameworks */,
+				647370F719F2B53800FA815C /* Bolts.framework in Frameworks */,
+				649B0F1119F01F1F007C823E /* UIKit.framework in Frameworks */,
+				647370F419F2B51700FA815C /* Parse.framework in Frameworks */,
+				649B0F0D19F01F1F007C823E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649B0F2119F01F1F007C823E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647370F819F2B53800FA815C /* Bolts.framework in Frameworks */,
+				649B0F2819F01F1F007C823E /* UIKit.framework in Frameworks */,
+				647370F519F2B51700FA815C /* Parse.framework in Frameworks */,
+				649B0F2719F01F1F007C823E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B78AD91A896BF10030E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B78ADA1A896BF10030E0A9 /* SystemConfiguration.framework in Frameworks */,
+				64B78ADB1A896BF10030E0A9 /* Security.framework in Frameworks */,
+				64B78ADC1A896BF10030E0A9 /* AudioToolbox.framework in Frameworks */,
+				64B78ADD1A896BF10030E0A9 /* CFNetwork.framework in Frameworks */,
+				64B78ADE1A896BF10030E0A9 /* CoreGraphics.framework in Frameworks */,
+				64B78ADF1A896BF10030E0A9 /* CoreLocation.framework in Frameworks */,
+				64B78AE01A896BF10030E0A9 /* libz.1.1.3.dylib in Frameworks */,
+				64B78AE11A896BF10030E0A9 /* MobileCoreServices.framework in Frameworks */,
+				64B78AE21A896BF10030E0A9 /* QuartzCore.framework in Frameworks */,
+				64B78AE31A896BF10030E0A9 /* Bolts.framework in Frameworks */,
+				64B78AE41A896BF10030E0A9 /* UIKit.framework in Frameworks */,
+				64B78AE51A896BF10030E0A9 /* Parse.framework in Frameworks */,
+				64B78AE61A896BF10030E0A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		646C947D1A40C8B0001CE74D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				645E85DF1A08186100EC314A /* SVProgressHUD.h */,
+				645E85E01A08186100EC314A /* SVProgressHUD.m */,
+				649B0F4419F01F93007C823E /* Reachability.h */,
+				649B0F4519F01F93007C823E /* Reachability.m */,
+				649B0F4919F01FC3007C823E /* Utility.h */,
+				649B0F4A19F01FC3007C823E /* Utility.m */,
+				645127EB1A4B2A610053DE5E /* ConnectionHandler.h */,
+				645127EC1A4B2A610053DE5E /* ConnectionHandler.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		646C947E1A40C8CC001CE74D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B78AB51A856FE30030E0A9 /* DettaglioContributoLabelsView.h */,
+				64B78AB61A856FE30030E0A9 /* DettaglioContributoLabelsView.m */,
+				64B78AB21A856F1B0030E0A9 /* DettaglioContributoView.h */,
+				64B78AB31A856F1B0030E0A9 /* DettaglioContributoView.m */,
+				64FF59001A84ABC700C4F6C8 /* HeaderHomeView.h */,
+				64FF59011A84ABC700C4F6C8 /* HeaderHomeView.m */,
+				64B78AB81A867C060030E0A9 /* ModificaView.h */,
+				64B78AB91A867C060030E0A9 /* ModificaView.m */,
+				6491AC051A852DAD00664F48 /* OperazioneTableViewCell.h */,
+				6491AC061A852DAD00664F48 /* OperazioneTableViewCell.m */,
+				6491AC081A852DE200664F48 /* OperazioneTableViewCell.xib */,
+				64A2652F1A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib */,
+				6491AC021A852C4D00664F48 /* OperazioniView.h */,
+				6491AC031A852C4D00664F48 /* OperazioniView.m */,
+				64FF59061A84B4FA00C4F6C8 /* ValorePosizioneView.h */,
+				64FF59071A84B4FA00C4F6C8 /* ValorePosizioneView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		649B0F0019F01F1F007C823E = {
+			isa = PBXGroup;
+			children = (
+				649B0F1219F01F1F007C823E /* Previmoda */,
+				649B0F2B19F01F1F007C823E /* PrevimodaTests */,
+				649B0F0B19F01F1F007C823E /* Frameworks */,
+				649B0F0A19F01F1F007C823E /* Products */,
+				64B78AFE1A896BF20030E0A9 /* Previmoda copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		649B0F0A19F01F1F007C823E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649B0F0919F01F1F007C823E /* Previmoda.app */,
+				649B0F2419F01F1F007C823E /* PrevimodaTests.xctest */,
+				64B78AFD1A896BF10030E0A9 /* Previmoda copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649B0F0B19F01F1F007C823E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6447ABDE1A5587020055186C /* MediaPlayer.framework */,
+				645E85DD1A08185800EC314A /* SVProgressHUD.bundle */,
+				647370F619F2B53800FA815C /* Bolts.framework */,
+				647370F319F2B51700FA815C /* Parse.framework */,
+				647370EF19F2AFFA00FA815C /* CoreLocation.framework */,
+				649B0FA419F02C43007C823E /* CoreData.framework */,
+				649B0F9F19F02A74007C823E /* CFNetwork.framework */,
+				649B0F9719F021AD007C823E /* SystemConfiguration.framework */,
+				649B0F9519F021A4007C823E /* Security.framework */,
+				649B0F9319F02193007C823E /* AudioToolbox.framework */,
+				649B0F9119F0218C007C823E /* MobileCoreServices.framework */,
+				649B0F8F19F0217B007C823E /* libz.1.1.3.dylib */,
+				649B0F8D19F02171007C823E /* QuartzCore.framework */,
+				649B0F0C19F01F1F007C823E /* Foundation.framework */,
+				649B0F0E19F01F1F007C823E /* CoreGraphics.framework */,
+				649B0F1019F01F1F007C823E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649B0F1219F01F1F007C823E /* Previmoda */ = {
+			isa = PBXGroup;
+			children = (
+				649B0F1B19F01F1F007C823E /* AppDelegate.h */,
+				649B0F1C19F01F1F007C823E /* AppDelegate.m */,
+				649B0F4819F01FC3007C823E /* Classes */,
+				649B0F4119F01F93007C823E /* Globals.h */,
+				649B0F1E19F01F1F007C823E /* Images.xcassets */,
+				649B0F1319F01F1F007C823E /* Supporting Files */,
+				646C947D1A40C8B0001CE74D /* Utility */,
+				64B78B081A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib */,
+				646D8CB91AEEC07400CF77F1 /* NSString+MD5.h */,
+				646D8CBA1AEEC0C100CF77F1 /* NSString+MD5.m */,
+			);
+			path = Previmoda;
+			sourceTree = "<group>";
+		};
+		649B0F1319F01F1F007C823E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B78B0B1A8F71530030E0A9 /* Localizable.strings */,
+				649B0F1419F01F1F007C823E /* Previmoda-Info.plist */,
+				649B0F1819F01F1F007C823E /* main.m */,
+				649B0F1A19F01F1F007C823E /* Previmoda-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649B0F2B19F01F1F007C823E /* PrevimodaTests */ = {
+			isa = PBXGroup;
+			children = (
+				649B0F3119F01F1F007C823E /* PrevimodaTests.m */,
+				649B0F2C19F01F1F007C823E /* Supporting Files */,
+			);
+			path = PrevimodaTests;
+			sourceTree = "<group>";
+		};
+		649B0F2C19F01F1F007C823E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				649B0F2D19F01F1F007C823E /* PrevimodaTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649B0F4819F01FC3007C823E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64A06EFF1A480D2B009D83DF /* Model */,
+				646C947E1A40C8CC001CE74D /* View */,
+				649B0F4B19F01FC3007C823E /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		649B0F4B19F01FC3007C823E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649B0F4D19F01FC3007C823E /* ChiSiamoViewController.h */,
+				649B0F4E19F01FC3007C823E /* ChiSiamoViewController.m */,
+				649B0F4F19F01FC3007C823E /* ChiSiamoViewController.xib */,
+				649B0F5019F01FC3007C823E /* ChiSiamoViewController~ipad.xib */,
+				649B0F5219F01FC3007C823E /* ContattiViewController.h */,
+				649B0F5319F01FC3007C823E /* ContattiViewController.m */,
+				649B0F5419F01FC3007C823E /* ContattiViewController.xib */,
+				649B0F5519F01FC3007C823E /* ContattiViewController~ipad.xib */,
+				64A06EFC1A47F9AD009D83DF /* CustomViewController.h */,
+				64A06EFD1A47F9AD009D83DF /* CustomViewController.m */,
+				645E85D61A080C0000EC314A /* DefaultWebViewViewController.h */,
+				645E85D71A080C0000EC314A /* DefaultWebViewViewController.m */,
+				645E85D81A080C0000EC314A /* DefaultWebViewViewController.xib */,
+				645E85DB1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib */,
+				649B0F5B19F01FC3007C823E /* IntroViewController.h */,
+				649B0F5C19F01FC3007C823E /* IntroViewController.m */,
+				649B0F5D19F01FC3007C823E /* IntroViewController.xib */,
+				647370F919F96A5900FA815C /* IntroViewController~ipad.xib */,
+				649B0F5F19F01FC3007C823E /* MenuViewController.h */,
+				649B0F6019F01FC3007C823E /* MenuViewController.m */,
+				649B0F6119F01FC3007C823E /* MenuViewController.xib */,
+				649B0F6219F01FC3007C823E /* MenuViewController~ipad.xib */,
+				64FF58F21A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.h */,
+				64FF58F31A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m */,
+				64FF58FB1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.h */,
+				64FF58FC1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m */,
+				64FF58FD1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib */,
+				64B78B031A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib */,
+				649B0F6F19F01FC3007C823E /* SpazioAderenteLoginViewController.h */,
+				649B0F7019F01FC3007C823E /* SpazioAderenteLoginViewController.m */,
+				649B0F7119F01FC3007C823E /* SpazioAderenteLoginViewController.xib */,
+				64FF58F71A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib */,
+			);
+			name = Controller;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		64A06EFF1A480D2B009D83DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				645127F61A4B52CE0053DE5E /* SpazioAderenteModel.h */,
+				645127F71A4B52CE0053DE5E /* SpazioAderenteModel.m */,
+				642E3CF51A51AA2A00134D89 /* RendimentoDettaglio.h */,
+				642E3CF61A51AA2A00134D89 /* RendimentoDettaglio.m */,
+				642E3CF81A51AA5500134D89 /* Contributo.h */,
+				642E3CF91A51AA5500134D89 /* Contributo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649B0F0819F01F1F007C823E /* Previmoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649B0F3519F01F1F007C823E /* Build configuration list for PBXNativeTarget "Previmoda" */;
+			buildPhases = (
+				649B0F0519F01F1F007C823E /* Sources */,
+				649B0F0619F01F1F007C823E /* Frameworks */,
+				649B0F0719F01F1F007C823E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Previmoda;
+			productName = Previmoda;
+			productReference = 649B0F0919F01F1F007C823E /* Previmoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		649B0F2319F01F1F007C823E /* PrevimodaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649B0F3819F01F1F007C823E /* Build configuration list for PBXNativeTarget "PrevimodaTests" */;
+			buildPhases = (
+				649B0F2019F01F1F007C823E /* Sources */,
+				649B0F2119F01F1F007C823E /* Frameworks */,
+				649B0F2219F01F1F007C823E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649B0F2A19F01F1F007C823E /* PBXTargetDependency */,
+			);
+			name = PrevimodaTests;
+			productName = PrevimodaTests;
+			productReference = 649B0F2419F01F1F007C823E /* PrevimodaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64B78ABE1A896BF10030E0A9 /* PrevimodaDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B78AF91A896BF10030E0A9 /* Build configuration list for PBXNativeTarget "PrevimodaDebug" */;
+			buildPhases = (
+				64B78ABF1A896BF10030E0A9 /* Sources */,
+				64B78AD91A896BF10030E0A9 /* Frameworks */,
+				64B78AE71A896BF10030E0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrevimodaDebug;
+			productName = Previmoda;
+			productReference = 64B78AFD1A896BF10030E0A9 /* Previmoda copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649B0F0119F01F1F007C823E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Previmoda;
+				TargetAttributes = {
+					649B0F0819F01F1F007C823E = {
+						DevelopmentTeam = 2F8VYP58PJ;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					649B0F2319F01F1F007C823E = {
+						TestTargetID = 649B0F0819F01F1F007C823E;
+					};
+					64B78ABE1A896BF10030E0A9 = {
+						DevelopmentTeam = 2F8VYP58PJ;
+					};
+				};
+			};
+			buildConfigurationList = 649B0F0419F01F1F007C823E /* Build configuration list for PBXProject "Previmoda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				en,
+			);
+			mainGroup = 649B0F0019F01F1F007C823E;
+			productRefGroup = 649B0F0A19F01F1F007C823E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649B0F0819F01F1F007C823E /* Previmoda */,
+				64B78ABE1A896BF10030E0A9 /* PrevimodaDebug */,
+				649B0F2319F01F1F007C823E /* PrevimodaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649B0F0719F01F1F007C823E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B78B091A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib in Resources */,
+				649B0F7819F01FC3007C823E /* ContattiViewController.xib in Resources */,
+				649B0F7619F01FC3007C823E /* ChiSiamoViewController~ipad.xib in Resources */,
+				645E85DC1A0815B600EC314A /* DefaultWebViewViewController~ipad.xib in Resources */,
+				64A265301A90CE7A0057720D /* OperazioneTableViewCell-ipad.xib in Resources */,
+				649B0F7919F01FC3007C823E /* ContattiViewController~ipad.xib in Resources */,
+				64B78B0D1A8F71530030E0A9 /* Localizable.strings in Resources */,
+				645E85DA1A080C0000EC314A /* DefaultWebViewViewController.xib in Resources */,
+				649B0F7519F01FC3007C823E /* ChiSiamoViewController.xib in Resources */,
+				649B0F1F19F01F1F007C823E /* Images.xcassets in Resources */,
+				64FF58F81A83FA8D00C4F6C8 /* SpazioAderenteLoginViewController~ipad.xib in Resources */,
+				649B0F8119F01FC3007C823E /* MenuViewController~ipad.xib in Resources */,
+				64B78B041A8D37B50030E0A9 /* SpazioAderenteHomeViewController~ipad.xib in Resources */,
+				649B0F8019F01FC3007C823E /* MenuViewController.xib in Resources */,
+				64FF58FF1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib in Resources */,
+				649B0F8B19F01FC3007C823E /* SpazioAderenteLoginViewController.xib in Resources */,
+				6491AC091A852DE200664F48 /* OperazioneTableViewCell.xib in Resources */,
+				647370FA19F96A5900FA815C /* IntroViewController~ipad.xib in Resources */,
+				649B0F7E19F01FC3007C823E /* IntroViewController.xib in Resources */,
+				645E85DE1A08185800EC314A /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649B0F2219F01F1F007C823E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B78AE71A896BF10030E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B78AE81A896BF10030E0A9 /* ContattiViewController.xib in Resources */,
+				64B78AE91A896BF10030E0A9 /* ChiSiamoViewController~ipad.xib in Resources */,
+				64B78AEA1A896BF10030E0A9 /* DefaultWebViewViewController~ipad.xib in Resources */,
+				64B78AEB1A896BF10030E0A9 /* ContattiViewController~ipad.xib in Resources */,
+				64B78B0A1A8F651E0030E0A9 /* PrevimodaLaunchScreen.xib in Resources */,
+				64B78AED1A896BF10030E0A9 /* DefaultWebViewViewController.xib in Resources */,
+				64B78AEE1A896BF10030E0A9 /* ChiSiamoViewController.xib in Resources */,
+				64B78AEF1A896BF10030E0A9 /* Images.xcassets in Resources */,
+				64B78AF01A896BF10030E0A9 /* SpazioAderenteLoginViewController~ipad.xib in Resources */,
+				64B78AF11A896BF10030E0A9 /* MenuViewController~ipad.xib in Resources */,
+				64B78B051A8D40650030E0A9 /* SpazioAderenteHomeViewController~ipad.xib in Resources */,
+				64B78AF21A896BF10030E0A9 /* MenuViewController.xib in Resources */,
+				64B78AF31A896BF10030E0A9 /* SpazioAderenteHomeViewController.xib in Resources */,
+				64B78AF41A896BF10030E0A9 /* SpazioAderenteLoginViewController.xib in Resources */,
+				64A2A0521A90D5D300D79653 /* OperazioneTableViewCell-ipad.xib in Resources */,
+				64B78AF51A896BF10030E0A9 /* OperazioneTableViewCell.xib in Resources */,
+				64B78AF61A896BF10030E0A9 /* IntroViewController~ipad.xib in Resources */,
+				64B78B0E1A8F71530030E0A9 /* Localizable.strings in Resources */,
+				64B78AF71A896BF10030E0A9 /* IntroViewController.xib in Resources */,
+				64B78AF81A896BF10030E0A9 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649B0F0519F01F1F007C823E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A06EFE1A47F9AD009D83DF /* CustomViewController.m in Sources */,
+				64FF59081A84B4FA00C4F6C8 /* ValorePosizioneView.m in Sources */,
+				6491AC041A852C4D00664F48 /* OperazioniView.m in Sources */,
+				642E3CF71A51AA2A00134D89 /* RendimentoDettaglio.m in Sources */,
+				649B0F1D19F01F1F007C823E /* AppDelegate.m in Sources */,
+				642E3CFA1A51AA5500134D89 /* Contributo.m in Sources */,
+				64B78AB71A856FE30030E0A9 /* DettaglioContributoLabelsView.m in Sources */,
+				649B0F7319F01FC3007C823E /* Utility.m in Sources */,
+				6491AC071A852DAD00664F48 /* OperazioneTableViewCell.m in Sources */,
+				649B0F7719F01FC3007C823E /* ContattiViewController.m in Sources */,
+				64FF58F41A824D0F00C4F6C8 /* SpazioAderenteCustomViewController.m in Sources */,
+				64B78ABA1A867C060030E0A9 /* ModificaView.m in Sources */,
+				649B0F7D19F01FC3007C823E /* IntroViewController.m in Sources */,
+				649B0F7419F01FC3007C823E /* ChiSiamoViewController.m in Sources */,
+				64FF59021A84ABC700C4F6C8 /* HeaderHomeView.m in Sources */,
+				649B0F4719F01F93007C823E /* Reachability.m in Sources */,
+				645E85E11A08186100EC314A /* SVProgressHUD.m in Sources */,
+				64FF58FE1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.m in Sources */,
+				645E85D91A080C0000EC314A /* DefaultWebViewViewController.m in Sources */,
+				649B0F8A19F01FC3007C823E /* SpazioAderenteLoginViewController.m in Sources */,
+				646D8CBB1AEEC0C100CF77F1 /* NSString+MD5.m in Sources */,
+				64B78AB41A856F1B0030E0A9 /* DettaglioContributoView.m in Sources */,
+				645127F81A4B52CE0053DE5E /* SpazioAderenteModel.m in Sources */,
+				645127ED1A4B2A610053DE5E /* ConnectionHandler.m in Sources */,
+				649B0F1919F01F1F007C823E /* main.m in Sources */,
+				649B0F7F19F01FC3007C823E /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649B0F2019F01F1F007C823E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649B0F3219F01F1F007C823E /* PrevimodaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B78ABF1A896BF10030E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B78AC01A896BF10030E0A9 /* CustomViewController.m in Sources */,
+				64B78AC11A896BF10030E0A9 /* ValorePosizioneView.m in Sources */,
+				64B78AC21A896BF10030E0A9 /* OperazioniView.m in Sources */,
+				64B78AC31A896BF10030E0A9 /* RendimentoDettaglio.m in Sources */,
+				64B78AC41A896BF10030E0A9 /* AppDelegate.m in Sources */,
+				64B78AC51A896BF10030E0A9 /* Contributo.m in Sources */,
+				64B78AC61A896BF10030E0A9 /* DettaglioContributoLabelsView.m in Sources */,
+				64B78AC71A896BF10030E0A9 /* Utility.m in Sources */,
+				64B78AC81A896BF10030E0A9 /* OperazioneTableViewCell.m in Sources */,
+				64B78AC91A896BF10030E0A9 /* ContattiViewController.m in Sources */,
+				64B78ACA1A896BF10030E0A9 /* SpazioAderenteCustomViewController.m in Sources */,
+				64B78ACB1A896BF10030E0A9 /* ModificaView.m in Sources */,
+				64B78ACC1A896BF10030E0A9 /* IntroViewController.m in Sources */,
+				64B78ACD1A896BF10030E0A9 /* ChiSiamoViewController.m in Sources */,
+				64B78ACE1A896BF10030E0A9 /* HeaderHomeView.m in Sources */,
+				64B78ACF1A896BF10030E0A9 /* Reachability.m in Sources */,
+				64B78AD01A896BF10030E0A9 /* SVProgressHUD.m in Sources */,
+				64B78AD11A896BF10030E0A9 /* SpazioAderenteHomeViewController.m in Sources */,
+				64B78AD21A896BF10030E0A9 /* DefaultWebViewViewController.m in Sources */,
+				64B78AD31A896BF10030E0A9 /* SpazioAderenteLoginViewController.m in Sources */,
+				646D8CBC1AEEC0C100CF77F1 /* NSString+MD5.m in Sources */,
+				64B78AD41A896BF10030E0A9 /* DettaglioContributoView.m in Sources */,
+				64B78AD51A896BF10030E0A9 /* SpazioAderenteModel.m in Sources */,
+				64B78AD61A896BF10030E0A9 /* ConnectionHandler.m in Sources */,
+				64B78AD71A896BF10030E0A9 /* main.m in Sources */,
+				64B78AD81A896BF10030E0A9 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649B0F2A19F01F1F007C823E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649B0F0819F01F1F007C823E /* Previmoda */;
+			targetProxy = 649B0F2919F01F1F007C823E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B78B0B1A8F71530030E0A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B78B0C1A8F71530030E0A9 /* it */,
+				64B78B0F1A8F71FE0030E0A9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649B0F3319F01F1F007C823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "879eff6a-dbe9-48c2-8e2b-1a1692d078aa";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		649B0F3419F01F1F007C823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "4b4a025a-eec3-4d6f-820b-da801dda83d8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649B0F3619F01F1F007C823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "Previmoda/Previmoda-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "879eff6a-dbe9-48c2-8e2b-1a1692d078aa";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		649B0F3719F01F1F007C823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				INFOPLIST_FILE = "Previmoda/Previmoda-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b4a025a-eec3-4d6f-820b-da801dda83d8";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		649B0F3919F01F1F007C823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Previmoda.app/Previmoda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "PrevimodaTests/PrevimodaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		649B0F3A19F01F1F007C823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Previmoda.app/Previmoda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				INFOPLIST_FILE = "PrevimodaTests/PrevimodaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		64B78ABB1A896AFC0030E0A9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "4b4a025a-eec3-4d6f-820b-da801dda83d8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		64B78ABC1A896AFC0030E0A9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ADHOC;
+				INFOPLIST_FILE = "Previmoda/Previmoda-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1b55bf8c-c3ac-4aa6-b838-bf023a0fe2bc";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		64B78ABD1A896AFC0030E0A9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Previmoda.app/Previmoda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				INFOPLIST_FILE = "PrevimodaTests/PrevimodaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AdHoc;
+		};
+		64B78AFA1A896BF10030E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				INFOPLIST_FILE = "Previmoda copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Previmoda copy";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64B78AFB1A896BF10030E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				INFOPLIST_FILE = "Previmoda copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Previmoda copy";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64B78AFC1A896BF10030E0A9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Previmoda/Previmoda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ADHOC;
+				INFOPLIST_FILE = "Previmoda copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Previmoda copy";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649B0F0419F01F1F007C823E /* Build configuration list for PBXProject "Previmoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649B0F3319F01F1F007C823E /* Debug */,
+				649B0F3419F01F1F007C823E /* Release */,
+				64B78ABB1A896AFC0030E0A9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		649B0F3519F01F1F007C823E /* Build configuration list for PBXNativeTarget "Previmoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649B0F3619F01F1F007C823E /* Debug */,
+				649B0F3719F01F1F007C823E /* Release */,
+				64B78ABC1A896AFC0030E0A9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		649B0F3819F01F1F007C823E /* Build configuration list for PBXNativeTarget "PrevimodaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649B0F3919F01F1F007C823E /* Debug */,
+				649B0F3A19F01F1F007C823E /* Release */,
+				64B78ABD1A896AFC0030E0A9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64B78AF91A896BF10030E0A9 /* Build configuration list for PBXNativeTarget "PrevimodaDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B78AFA1A896BF10030E0A9 /* Debug */,
+				64B78AFB1A896BF10030E0A9 /* Release */,
+				64B78AFC1A896BF10030E0A9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649B0F0119F01F1F007C823E /* Project object */;
+}

@@ -1,0 +1,13 @@
+/* Localized versions of Info.plist keys */
+
+"Error" = "Errore";
+"ButtonDone" = "Prosegui";
+"Loading" = "Recupero informazioni.\nAttendere prego.\n\nClicca qua per annullare.";
+"LoadingWebView" = "Recupero informazioni.\nAttendere prego.";
+"GenericError" = "Si è verificato un errore. Si prega di riprovare. \n Grazie";
+"AuthenticationError" = "Login errato. Inserire le credenziali di accesso e riprovare. \n Grazie";
+"TimeoutError" = "Il sistema al momento non risponde. Si prega di riprovare più tardi. \n Grazie";
+"ConnectionLost" = "Nessuna connessione ad internet attiva. Si prega di connettersi ad internet e riprovare. \n Grazie";
+"RefreshingData" = "Aggiornamento dati";
+"Modifica" = "I dati sono stati modificati con successo.";
+"EmailFormatWrong" = "Formato della email errato. Si prega di riprovare. \n Grazie";
