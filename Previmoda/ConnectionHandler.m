@@ -90,6 +90,9 @@
     if (body && ![body isEqualToString:@""]) {
         [urlRequest setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
     }
+    LOG(@"Request: %@",urlRequest);
+    LOG(@"Request Header: %@",[urlRequest allHTTPHeaderFields]);
+    LOG(@"Request Body: %@",[[NSString alloc] initWithData:[urlRequest HTTPBody] encoding:NSUTF8StringEncoding]);
     _connection = [NSURLConnection connectionWithRequest:urlRequest delegate:self];
     [_connection start];
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Loading", nil) maskType:SVProgressHUDMaskTypeBlack];

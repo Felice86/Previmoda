@@ -68,7 +68,7 @@
     user.codiceAderente = codiceAderente;
     user.password = password;
     
-    NSString *md5Password = [password MD5];
+    NSString *md5Password = [NSString stringWithFormat:@"\"%@\"",[password MD5]];
     [self.appDelegate.connectionHandler createRequestForAction:Login withHttpMethod:fondimatica_post andBody:md5Password];
 }
 
