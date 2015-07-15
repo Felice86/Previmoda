@@ -7,44 +7,32 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>7AB94E25-4BA0-4CF6-8D98-756AAE3E3F9B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Previmoda</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A94F5697968C15A0F9E3AEF00C3CFDCA7A58327F</key>
-		<string>https://bitbucket.org/Felice_Vimercati/previmoda.git</string>
-		<key>B16AE71E663C84EBC231776FBC79FA67A9BAC9C7</key>
-		<string>https://bitbucket.org/Felice_Vimercati/previmodaapp.git</string>
+		<key>3CEC4D4259049429AA45513514D6198A909A07F4</key>
+		<string>https://github.com/Felice86/Previmoda.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Previmoda.xcodeproj</string>
+	<string>Previmoda.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A94F5697968C15A0F9E3AEF00C3CFDCA7A58327F</key>
+		<key>3CEC4D4259049429AA45513514D6198A909A07F4</key>
 		<string>../..</string>
-		<key>B16AE71E663C84EBC231776FBC79FA67A9BAC9C7</key>
-		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/Felice_Vimercati/previmoda.git</string>
+	<string>https://github.com/Felice86/Previmoda.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A94F5697968C15A0F9E3AEF00C3CFDCA7A58327F</string>
+	<string>3CEC4D4259049429AA45513514D6198A909A07F4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B16AE71E663C84EBC231776FBC79FA67A9BAC9C7</string>
-			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A94F5697968C15A0F9E3AEF00C3CFDCA7A58327F</string>
+			<string>3CEC4D4259049429AA45513514D6198A909A07F4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Previmoda</string>
 		</dict>

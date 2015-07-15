@@ -156,10 +156,10 @@
 - (void) connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
         int statusCode = (int)[(NSHTTPURLResponse *)response statusCode];
-        LOG(@"%s success code %li", __FUNCTION__,(long)statusCode);
+        LOG(@"%s response code %li", __FUNCTION__,(long)statusCode);
         if (statusCode != 200) {
             ActionName action = [self findActionName:[connection.currentRequest.allHTTPHeaderFields valueForKey:@"action"]];
-            LOG(@"%s failed status code %d for action %d", __FUNCTION__, statusCode,action);
+            LOG(@"%s failed status code %d for action %d - response:%@", __FUNCTION__, statusCode,action,response);
             [self responseToDelegate:statusCode action:action error:true];
             [connection cancel];
         }
