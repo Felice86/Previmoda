@@ -106,6 +106,12 @@
         SpazioAderenteModel *user = [SpazioAderenteModel sharedInstance];
         switch (action) {
             case Login: {
+                int abilitato = [[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error] intValue];
+//                BOOL abilitato = (BOOL)resultDict;
+                if (!abilitato) {
+                    [self responseToDelegate:9999 action:action error:true];
+                    return;
+                }
                 break;
             }
             case Recapiti: {
@@ -177,19 +183,27 @@
     
 //    LOG(@"%s success; data = %@", __FUNCTION__, [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
     ActionName action = [self findActionName:[connection.currentRequest.allHTTPHeaderFields valueForKey:@"action"]];
-    if (action == Login) {
-        NSError *error = nil;
-        NSDictionary *resultDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
-        LOG(@"didReceiveData - resultDict: %@",resultDict);
-    }
-    if ([data length] > 0) {
+//    if (action == Login) {
+//        NSError *error = nil;
+//        NSDictionary *resultDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
         [self responseFondimatica:data forAction:action];
-    } else if ([data length] == 0) {
-        
-    }
+//        BOOL abilitato = [[NSNumber numberWithBool:resultDict] boolValue];
+//        LOG(@"didReceiveData - resultDict: %d",abilitato);
+//        if (abilitato) {
+//            [self responseFondimatica:nil forAction:action];
+//        } else {
+//            [self responseToDelegate:500 action:action error:YES];
+//        }
+//    }
+//    if ([data length] > 0) {
+//        [self responseFondimatica:data forAction:action];
+//    } else if ([data length] == 0) {
+//        
+//    }
 }
 
 - (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    LOG(@"Connection error:%@",[error description]);
     ActionName action = (ActionName)[connection.currentRequest.allHTTPHeaderFields valueForKey:@"action"];
     if (error != nil) {
         [self responseToDelegate:error.code action:action error:true];
@@ -207,6 +221,9 @@
         errorString = [self catchConnectionError:code];
     } else {
         errorString =  [[NSHTTPURLResponse localizedStringForStatusCode:code] capitalizedString];
+    }
+    if (action == Login) {
+        errorString = NSLocalizedString(@"AuthenticationError", @"");
     }
     
     [self.delegate connectionHandlerAction:action didFailWithError:errorString];

@@ -40,11 +40,11 @@
     [self closeKeyboard];
     //Check internet connection
     if (![ConnectionHandler checkInternetConnection]) {
-#if defined (DEBUG) || defined (ADHOC)
-        [self createHomeView];
-#else
+//#if defined (DEBUG) || defined (ADHOC)
+//        [self createHomeView];
+//#else
         return;
-#endif
+//#endif
     }
     NSString *codiceAderente = [self.userField text];
     NSString *password = [self.pswField text];
