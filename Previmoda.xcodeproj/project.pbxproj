@@ -122,8 +122,8 @@
 		64FF58FF1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FF58FD1A84A9EC00C4F6C8 /* SpazioAderenteHomeViewController.xib */; };
 		64FF59021A84ABC700C4F6C8 /* HeaderHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59011A84ABC700C4F6C8 /* HeaderHomeView.m */; };
 		64FF59081A84B4FA00C4F6C8 /* ValorePosizioneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF59071A84B4FA00C4F6C8 /* ValorePosizioneView.m */; };
-		85AB5A521BCD06F4001D3E68 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB5A501BCD06F4001D3E68 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		85AB5A531BCD06F4001D3E68 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB5A511BCD06F4001D3E68 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		85AB5A521BCD06F4001D3E68 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB5A501BCD06F4001D3E68 /* Bolts.framework */; };
+		85AB5A531BCD06F4001D3E68 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB5A511BCD06F4001D3E68 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -750,7 +750,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Daniele Spinelli (KB56DS8A72)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -773,7 +773,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PROVISIONING_PROFILE = "879eff6a-dbe9-48c2-8e2b-1a1692d078aa";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -796,7 +796,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -812,7 +812,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PROVISIONING_PROFILE = "49750269-f012-4448-abe7-8af7e96d44ff";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -926,7 +926,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniele Spinelli (2F8VYP58PJ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -942,7 +942,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PROVISIONING_PROFILE = "1ccc8b3c-4c6e-4686-a2f6-74235d246288";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
